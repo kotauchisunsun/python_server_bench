@@ -1,0 +1,15 @@
+server:wsgiref app:falcon
+Requests      [total, rate]            99000, 550.00
+Duration      [total, attack, wait]    3m29.726820882s, 2m59.99894503s, 29.727875852s
+Latencies     [mean, 50, 95, 99, max]  790.662585ms, 2.923898ms, 3.677588185s, 16.476117657s, 44.156881794s
+Bytes In      [total, mean]            725427, 7.33
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  81.42%
+Status Codes  [code:count]             0:18397  200:80603  
+Error Set:
+Get http://localhost:3000: dial tcp 0.0.0.0:0->127.0.0.1:3000: i/o timeout
+Get http://localhost:3000: net/http: timeout awaiting response headers
+Get http://localhost:3000: read tcp 127.0.0.1:46349->127.0.0.1:3000: read: connection reset by peer
+Get http://localhost:3000: read tcp 127.0.0.1:37632->127.0.0.1:3000: read: connection reset by peer
+Get http://localhost:3000: read tcp 127.0.0.1:59849->127.0.0.1:3000: read: connection reset by peer
+

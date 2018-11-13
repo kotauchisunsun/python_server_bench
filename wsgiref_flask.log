@@ -1,0 +1,22 @@
+server:wsgiref app:flask
+Requests      [total, rate]            99000, 550.00
+Duration      [total, attack, wait]    3m32.962362422s, 3m0.000433056s, 32.961929366s
+Latencies     [mean, 50, 95, 99, max]  815.740966ms, 2.439934ms, 4.739698246s, 16.115854855s, 44.17228343s
+Bytes In      [total, mean]            648180, 6.55
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  72.75%
+Status Codes  [code:count]             0:26980  200:72020  
+Error Set:
+Get http://localhost:3000: read tcp 127.0.0.1:59398->127.0.0.1:3000: read: connection reset by peer
+Get http://localhost:3000: read tcp 127.0.0.1:53404->127.0.0.1:3000: read: connection reset by peer
+Get http://localhost:3000: read tcp 127.0.0.1:47314->127.0.0.1:3000: read: connection reset by peer
+Get http://localhost:3000: read tcp 127.0.0.1:36220->127.0.0.1:3000: read: connection reset by peer
+Get http://localhost:3000: dial tcp 0.0.0.0:0->127.0.0.1:3000: i/o timeout
+Get http://localhost:3000: net/http: timeout awaiting response headers
+Get http://localhost:3000: read tcp 127.0.0.1:39810->127.0.0.1:3000: read: connection reset by peer
+Get http://localhost:3000: read tcp 127.0.0.1:49830->127.0.0.1:3000: read: connection reset by peer
+Get http://localhost:3000: read tcp 127.0.0.1:41180->127.0.0.1:3000: read: connection reset by peer
+Get http://localhost:3000: read tcp 127.0.0.1:49063->127.0.0.1:3000: read: connection reset by peer
+Get http://localhost:3000: read tcp 127.0.0.1:58499->127.0.0.1:3000: read: connection reset by peer
+Get http://localhost:3000: read tcp 127.0.0.1:41989->127.0.0.1:3000: read: connection reset by peer
+

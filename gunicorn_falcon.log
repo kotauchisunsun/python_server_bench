@@ -1,0 +1,10 @@
+server:gunicorn app:falcon
+Requests      [total, rate]            99000, 550.01
+Duration      [total, attack, wait]    2m59.999374881s, 2m59.998228907s, 1.145974ms
+Latencies     [mean, 50, 95, 99, max]  1.367579ms, 908.605µs, 2.147036ms, 12.116032ms, 81.442022ms
+Bytes In      [total, mean]            891000, 9.00
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  100.00%
+Status Codes  [code:count]             200:99000  
+Error Set:
+

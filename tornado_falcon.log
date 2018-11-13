@@ -1,0 +1,10 @@
+server:tornado app:falcon
+Requests      [total, rate]            99000, 550.00
+Duration      [total, attack, wait]    3m0.00010558s, 2m59.999010529s, 1.095051ms
+Latencies     [mean, 50, 95, 99, max]  1.133642ms, 806.454µs, 1.653786ms, 8.664489ms, 52.871085ms
+Bytes In      [total, mean]            891000, 9.00
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  100.00%
+Status Codes  [code:count]             200:99000  
+Error Set:
+

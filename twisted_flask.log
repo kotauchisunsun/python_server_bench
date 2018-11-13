@@ -1,0 +1,10 @@
+server:twisted app:flask
+Requests      [total, rate]            99000, 550.00
+Duration      [total, attack, wait]    2m59.999730606s, 2m59.998536761s, 1.193845ms
+Latencies     [mean, 50, 95, 99, max]  1.633416793s, 1.987316ms, 10.066975748s, 11.590310732s, 11.918899465s
+Bytes In      [total, mean]            891000, 9.00
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  100.00%
+Status Codes  [code:count]             200:99000  
+Error Set:
+

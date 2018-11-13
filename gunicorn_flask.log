@@ -1,0 +1,10 @@
+server:gunicorn app:flask
+Requests      [total, rate]            99000, 550.00
+Duration      [total, attack, wait]    3m0.000758607s, 2m59.999170907s, 1.5877ms
+Latencies     [mean, 50, 95, 99, max]  1.550525ms, 1.158508ms, 3.549721ms, 7.588032ms, 37.953015ms
+Bytes In      [total, mean]            891000, 9.00
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  100.00%
+Status Codes  [code:count]             200:99000  
+Error Set:
+
